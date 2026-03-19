@@ -1,0 +1,13 @@
+services:
+  - type: web
+      name: bling-drive-sync
+          env: python
+              buildCommand: pip install -r requirements.txt
+                  startCommand: python bling_render_main.py
+                      envVars:
+                            - key: BLING_API_KEY
+                                    sync: false
+                                          - key: GOOGLE_DRIVE_ROOT_FOLDER
+                                                  sync: false
+                                                        - key: GOOGLE_CREDENTIALS_JSON
+                                                                sync: false
