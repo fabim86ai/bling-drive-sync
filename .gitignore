@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+*.json
+!render.yml
+!requirements.txt
+!bling_render_main.py
+!COMECE_AQUI.md
